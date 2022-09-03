@@ -192,7 +192,7 @@ body {
 .services-container {
     width: 100%;
     height: 1120px;
-    background-color: #4842dc;
+    background-color: #6347EB;
 }
 
 .services-container h2 {
@@ -250,3 +250,213 @@ body {
 
 /* classes-card */
 
+.title h1 {
+    font-family: 'Questrial', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 119px;
+    color: #EEEEEE;
+    text-align: center;
+    margin: 145px 0 -50px 0;
+}
+
+.title h3 {
+    font-family: 'Questrial', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    color: #000000;
+    text-align: center;
+    margin: 0 0 105px;
+}
+
+.class-card-parent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 60px;
+}
+
+.class-card {
+    height: 530px;
+    width: 300px;
+    background: #5855E7;
+    box-shadow: 0px 0px 35px rgba(17, 17, 17, 0.25);
+    border-radius: 15px;
+    margin: 0 85px;
+    text-align: center;
+}
+
+.class-card img {
+    width: 265px;
+    height: 240px;
+    margin: 19px 0 25px;
+}
+
+.class-card h5 {
+    font-family: 'Questrial', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 37px;
+    color: #FAFBFD;
+}
+
+.class-card h6 {
+    font-family: 'Questrial', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 15px 0;
+}
+
+.class-card p {
+    width: 250px;
+    font-family: 'Questrial', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0 auto;
+}
+
+#pre-school-text {
+    width: 230px;
+}
+
+.class-card button {
+    background: #FFFFFF;
+    border-radius: 5px;
+    font-family: 'Questrial', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    color: #6347EB;
+    margin: 30px auto;
+    padding: 5px 25px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.class-card button:hover {
+    background-color: #948c8c;
+    color: white;
+}
+
+/* contact us */
+
+.contact-us-title {
+    text-align: center;
+}
+
+.contact-us-title h1 {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 119px;
+    color: #EEEEEE;
+    margin: 118px 0 -50px 0;
+}
+
+.contact-us-title h3 {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    color: #000000;
+}
+
+/* contacts  */
+
+.contact-us-container {
+    display: flex;
+    width: 65%;
+    margin: 80px auto 95px;
+    background-color: #5855E7;
+    border-radius: 10px;
+}
+
+.contact-details {
+    width: 50%;
+}
+.contact-details h2 {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 49px;
+    color: #FFFFFF;
+    margin: 50px 0 15px 50px;
+}
+
+.address-phone-number {
+    list-style: square inside;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    color: #FFFFFF;
+    margin: 0 0 40px 50px;
+    line-height: 60px;
+}
+
+.contact-us-container img {
+    width: 485px;
+    height: 338px;
+    margin: 0 0 70px 50px;
+}
+
+/* request-form */
+
+.request-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.request-form h2 {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 49px;
+    color: #FFFFFF;
+    margin: 50px 0 28px 50px;
+}
+
+.request-form p {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    margin: 0 0 0 50px;
+}
+
+.request-form input {
+    width: 400px;
+    height: 52px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 35px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    margin: 20px 0 20px 50px;
+    padding: 15px 12px;
+}
+
+.request-form input[type="textarea"] {
+    height: 262px;
