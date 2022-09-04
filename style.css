@@ -144,7 +144,6 @@ body {
     text-align: end;
 }
 
-
 /* about section */
 
 .about {
@@ -351,6 +350,7 @@ body {
 
 .class-card button:hover {
     background-color: #cec7c7;
+    transition: .3s;
     color: black;
 }
 
@@ -500,6 +500,7 @@ body {
 
 .request-form button:hover {
     background-color: #cec7c7;
+    transition: .3s;
 }
 
 /* footer */
