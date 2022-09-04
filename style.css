@@ -350,8 +350,8 @@ body {
 }
 
 .class-card button:hover {
-    background-color: #948c8c;
-    color: white;
+    background-color: #cec7c7;
+    color: black;
 }
 
 /* contact us */
@@ -361,7 +361,7 @@ body {
 }
 
 .contact-us-title h1 {
-    font-family: 'Gilroy';
+    font-family: 'Questrial', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 96px;
@@ -371,7 +371,7 @@ body {
 }
 
 .contact-us-title h3 {
-    font-family: 'Gilroy';
+    font-family: 'Questrial', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
@@ -383,7 +383,7 @@ body {
 
 .contact-us-container {
     display: flex;
-    width: 65%;
+    width: 75%;
     margin: 80px auto 95px;
     background-color: #5855E7;
     border-radius: 10px;
@@ -393,7 +393,7 @@ body {
     width: 50%;
 }
 .contact-details h2 {
-    font-family: 'Gilroy';
+    font-family: 'Questrial', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 40px;
@@ -404,13 +404,13 @@ body {
 
 .address-phone-number {
     list-style: square inside;
-    font-family: 'Gilroy';
+    font-family: 'Questrial', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
     color: #FFFFFF;
     margin: 0 0 40px 50px;
-    line-height: 60px;
+    line-height: 50px;
 }
 
 .contact-us-container img {
@@ -427,7 +427,7 @@ body {
 }
 
 .request-form h2 {
-    font-family: 'Gilroy';
+    font-family: 'Questrial', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 40px;
@@ -437,7 +437,7 @@ body {
 }
 
 .request-form p {
-    font-family: 'Gilroy';
+    font-family: 'Questrial', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -456,7 +456,108 @@ body {
     outline: none;
     margin: 20px 0 20px 50px;
     padding: 15px 12px;
+    font-family: 'Questrial', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
 }
 
-.request-form input[type="textarea"] {
-    height: 262px;
+.request-form textarea {
+    height: 240px;
+    width: 400px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 35px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    margin: 20px 0 40px 50px;
+    padding: 15px 12px;
+    font-family: 'Questrial', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.request-form button {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    font-family: 'Questrial', sans-serif;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    border: none;
+    outline: none;
+    padding: 12px 38px;
+    float: right;
+    margin: 0 28px 0;
+    cursor: pointer;
+}
+
+.request-form button:hover {
+    background-color: #cec7c7;
+}
+
+/* footer */
+
+.footer {
+    background-color:#5855E7;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 166px;
+}
+
+.footer img {
+    height: 111px;
+    width: 156px;
+}
+
+.footer-contact {
+    display: flex;
+    gap: 37px;
+    align-items: center;
+}
+
+.footer-contact h4 {
+    font-family: 'Questrial', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.footer-contact p {
+    font-family: 'Questrial', sans-serif;
+    font-size: 20px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.footer-logo {
+    display: flex;
+    flex-direction:column;
+    gap: 25px;
+    align-items: center;
+    font-family: 'Questrial', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+
+.footer-logo i {
+    font-size: 32px;
+    cursor: pointer;
+    margin: 0 8px;
+}
