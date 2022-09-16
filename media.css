@@ -1,6 +1,8 @@
+/* navbar 1700-1081 */
+
 @media only screen and (max-width: 1700px) and (min-width: 1081px) {
 
-    .navbar img {
+    .navbar .logo {
         margin: 16px 40px;
     }
     .navbar-menu {
@@ -26,11 +28,13 @@
     }
 }
 
+/* navbar 1081-900 */
+
 @media only screen and (max-width: 1080px) and (min-width: 900px) {
 
     .navbar {height: 120px;}
 
-    .navbar img {
+    .navbar .logo {
         margin: 16px 20px;
     }
     .navbar-menu {
@@ -56,11 +60,13 @@
     }
 }
 
+/* navbar 900-600 */
+
 @media only screen and (max-width: 900px) and (min-width: 600px) {
 
     .navbar {height: 100px;}
 
-    .navbar img {
+    .navbar .logo {
         margin: 16px 5px;
         height: 90px;
         width: 120px;
@@ -85,5 +91,95 @@
         justify-content: center;
         margin: 0 20px 0;
         padding: 0px 5px;
+    }
+}
+
+/* navbar 600-300 */
+
+@media only screen and (max-width: 600px) and (min-width: 300px) {
+
+    .navbar {
+        height: 80px;
+        justify-content: space-between;
+    }
+
+    .navbar .logo {
+        margin: 0 0 0 20px;
+        height: 80px;
+        width: 120px;
+    }
+
+    .phone-version {
+        display: flex;
+        gap: 10px;
+        justify-content: flex-end;
+        cursor: pointer;
+        margin: 0 20px 0 0;
+    }
+
+    .navbar-menu {
+        display: none;
+    }
+
+    .navbar button {
+        display: none;
+    }
+
+    .main-content {
+        display: flex;
+        flex-direction: column-reverse;
+        font-size: 5px;
+        justify-content: center;
+        width: 100%;
+        height: 750px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .main-content-left {
+        /* display: none; */
+        font-size: 5px;
+        width: 100%;
+        margin: 150px 0 0 0;
+        padding: 0;
+    }
+    .boy {
+        width: 100%;
+        height: 300px;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    .proud-boy {
+        width: 100%;
+        height: 424px;
+        padding-right: 100px;
+    }
+
+    .main-content-left {
+        text-align: center;
+        margin: 10px 0;
+    }
+
+    .main-content-left h1 {
+        font-size: 30px;
+    }
+
+    /* contact us */
+
+    .contact-details {
+        display: none;
+    }
+
+    .contact-us-container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .request-form button {
+        display: flex;
+        justify-content: center;
     }
 }
