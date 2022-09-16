@@ -166,6 +166,22 @@
         font-size: 30px;
     }
 
+    .main-content-left p {
+        margin: 20px 0;
+    }
+
+    /* main content btn */
+
+    .main-content-btn {
+        justify-content: center;
+        margin: 20px 0;
+    }
+
+    .main-content-btn1, .main-content-btn2 {
+        font-size: 15px;
+        padding: 0px 10px;
+    }
+
     /* contact us */
 
     .contact-details {
