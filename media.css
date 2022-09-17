@@ -134,6 +134,7 @@
         height: 750px;
         margin: 0;
         padding: 0;
+        background-color: white;
     }
 
     .main-content-left {
@@ -164,10 +165,11 @@
 
     .main-content-left h1 {
         font-size: 30px;
+        margin: 0 20px;
     }
 
     .main-content-left p {
-        margin: 20px 0;
+        margin: 20px;
     }
 
     /* main content btn */
@@ -181,6 +183,56 @@
         font-size: 15px;
         padding: 0px 10px;
     }
+
+    /* about us */
+
+    .about {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin: 35px auto;
+    }
+
+    .phone-about {
+        display: block;
+        text-align: center;
+        width: 100%;
+    }
+
+    .about-text h1 {
+        display: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .about-img {
+        width: 100%;
+    }
+
+    .about img {
+        width: 300px;
+        height: 276px;
+        margin: 35px auto;
+        text-align: center;
+    }
+
+    .about-text {
+        width: 100%;
+    }
+
+    .about-text p {
+        font-size: 15px;
+        width: 300px;
+        line-height: 19px;
+        margin: 0;
+    }
+
+
+
+
+
+
+
 
     /* contact us */
 

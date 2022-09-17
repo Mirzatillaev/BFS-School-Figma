@@ -157,6 +157,14 @@ body {
     align-items: center;
 }
 
+.phone-about {
+    display: none;
+    font-family: 'Questrial', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+}
+
 .about-img {
     width: 50%;
 }
