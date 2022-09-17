@@ -235,7 +235,7 @@ body {
     width: 209px;
     height: 209px;
     border-radius: 50%;
-    outline: 5px solid white;
+    border: 5px solid white;
 }
 
 .service-item h5 {
